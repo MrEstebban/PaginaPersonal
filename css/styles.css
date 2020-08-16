@@ -10093,14 +10093,14 @@ p.lead {
   background-color: #495057;
   color: #fff;
   border-radius: 100%;
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-right: 1.5rem;
 }
 .social-icons .social-icon:last-child {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #bd5d38;
+  background-color: #1f28ac;
 }
 
 .dev-icons {
