@@ -438,6 +438,18 @@ mark,
   background-color: #fcf8e3;
 }
 
+/*Esteban*/
+
+.mini-flag{
+  display: inline;
+}
+
+.image-mini-flag{
+  border-radius: 6px 6px;
+  width: 35px;
+  margin: 10px 0px 0px 10px;
+}
+
 .list-unstyled {
   padding-left: 0;
   list-style: none;
