@@ -398,7 +398,7 @@ h6,
 
 h1,
 .h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 
 h2,
@@ -491,8 +491,27 @@ mark,
     border-radius: 6px 6px;
     width: 35px;
     margin: 10px 0px 0px 10px;
-    border: 1px solid #000000;
+    border: 1px solid #fff;
     padding: 2px;
+}
+
+.d-lg-inline .image-mini-flag-current {
+    border: 1px solid #000;
+}
+
+.span-img {
+    padding: 1rem 0 1rem 0;
+    text-align: center;
+    background: rgb(31, 40, 172);
+    background: -moz-linear-gradient(123deg, rgba(31, 40, 172, 1) 2%, rgba(30, 154, 198, 1) 67%);
+    background: -webkit-linear-gradient(123deg, rgba(31, 40, 172, 1) 2%, rgba(30, 154, 198, 1) 67%);
+    background: linear-gradient(123deg, rgba(31, 40, 172, 1) 2%, rgba(30, 154, 198, 1) 67%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#1f28ac", endColorstr="#1e9ac6", GradientType=1);
+}
+
+.img-profile {
+    width: 10rem;
+    border: 0.5rem solid rgb(30, 103, 186);
 }
 
 .list-unstyled {
@@ -533,7 +552,7 @@ mark,
     content: "— ";
 }
 
-.img-fluid {
+#sideNav .navbar-brand .img-fluid {
     max-width: 100%;
     height: auto;
 }
@@ -10260,7 +10279,7 @@ section.resume-section {
     align-items: center;
     padding-left: 1rem;
     padding-right: 1rem;
-    padding-top: 5rem;
+    padding-top: 1.5rem;
     padding-bottom: 5rem;
     max-width: 75rem;
 }
@@ -10269,17 +10288,20 @@ section.resume-section .resume-section-content {
     width: 100%;
 }
 
+
+/* 
 @media (min-width: 768px) {
     section.resume-section {
-        min-height: 100vh;
+        
     }
-}
+} */
 
 @media (min-width: 992px) {
     section.resume-section {
+        min-height: 100vh;
         padding-left: 3rem;
         padding-right: 3rem;
-        padding-top: 5rem;
+        padding-top: 1.5rem;
         padding-bottom: 5rem;
     }
 }
